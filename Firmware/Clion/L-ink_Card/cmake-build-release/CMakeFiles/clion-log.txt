@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_C_COMPILER=D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" C:\Users\Pengzhihui\Desktop\L-ink_Card
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release

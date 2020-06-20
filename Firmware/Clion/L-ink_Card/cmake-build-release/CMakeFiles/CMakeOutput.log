@@ -1,0 +1,532 @@
+The target system is: Generic - 1 - 
+The host system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe cmTC_597e5/fast && D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_597e5.dir\build.make CMakeFiles/cmTC_597e5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_597e5.dir/CMakeCCompilerABI.c.obj
+D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m'
+ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mthumb-interwork -mfloat-abi=soft -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\PENGZH~1\AppData\Local\Temp\ccv5hbR2.s
+GNU C99 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"
+ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/include/newlib-nano
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C99 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d48d906eaae8455a6540c74ba2cbe16a
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m'
+ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mthumb-interwork -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj C:\Users\PENGZH~1\AppData\Local\Temp\ccv5hbR2.s
+GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
+COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m'
+Linking C executable cmTC_597e5
+"D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_597e5.dir\link.txt --verbose=1
+D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl,-gc-sections,--print-memory-usage -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld -v CMakeFiles/cmTC_597e5.dir/CMakeCCompilerABI.c.obj  -o cmTC_597e5 
+Using built-in specs.
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' 'C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld' '-v' '-o' 'cmTC_597e5' '-mfloat-abi=soft' '-march=armv6s-m'
+ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\ccXFg9Ce.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -X -o cmTC_597e5 d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_597e5.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B         8 KB     19.14%
+           FLASH:         104 B        64 KB      0.16d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler; defaulting to 08000000%
+
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' 'C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld' '-v' '-o' 'cmTC_597e5' '-mfloat-abi=soft' '-march=armv6s-m'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/include/newlib-nano]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/include/newlib-nano] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib-nano]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include]
+  implicit include dirs: [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib-nano;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include-fixed;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe cmTC_597e5/fast && D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_597e5.dir\build.make CMakeFiles/cmTC_597e5.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_597e5.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE   -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99    -v -o CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj   -c "D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m']
+  ignore line: [ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-m0 -mthumb -mthumb-interwork -mfloat-abi=soft -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj -g -std=gnu99 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\PENGZH~1\AppData\Local\Temp\ccv5hbR2.s]
+  ignore line: [GNU C99 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/include/newlib-nano]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C99 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d48d906eaae8455a6540c74ba2cbe16a]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m']
+  ignore line: [ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mthumb-interwork -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj C:\Users\PENGZH~1\AppData\Local\Temp\ccv5hbR2.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
+  ignore line: [COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-v' '-o' 'CMakeFiles\cmTC_597e5.dir\CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m']
+  ignore line: [Linking C executable cmTC_597e5]
+  ignore line: ["D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_597e5.dir\link.txt --verbose=1]
+  ignore line: [D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=gnu99   -Wl -gc-sections --print-memory-usage -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld -v CMakeFiles/cmTC_597e5.dir/CMakeCCompilerABI.c.obj  -o cmTC_597e5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR19DD~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=gnu99' '-T' 'C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld' '-v' '-o' 'cmTC_597e5' '-mfloat-abi=soft' '-march=armv6s-m']
+  link line: [ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\ccXFg9Ce.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -X -o cmTC_597e5 d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_597e5.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld]
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\ccXFg9Ce.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_597e5] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o] ==> ignore
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib]
+    arg [-gc-sections] ==> ignore
+    arg [--print-memory-usage] ==> ignore
+    arg [CMakeFiles/cmTC_597e5.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lg_nano] ==> lib [g_nano]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o] ==> ignore
+    arg [-T] ==> ignore
+    arg [C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld] ==> ignore
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib]
+  implicit libs: [gcc;g_nano;c_nano;gcc;c_nano;nosys;gcc;c_nano;nosys]
+  implicit dirs: [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib/thumb/v6-m/nofp;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe cmTC_af326/fast && D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_af326.dir\build.make CMakeFiles/cmTC_af326.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af326.dir/CMakeCXXCompilerABI.cpp.obj
+D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m'
+ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mthumb-interwork -mfloat-abi=soft -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\PENGZH~1\AppData\Local\Temp\cc4EqRLw.s
+GNU C++11 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp"
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"
+ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"
+ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/include/newlib-nano
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed
+ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++11 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 170ff1c01984ee844c36675da8099675
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m'
+ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mthumb-interwork -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\PENGZH~1\AppData\Local\Temp\cc4EqRLw.s
+GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
+COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m'
+Linking CXX executable cmTC_af326
+"D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_af326.dir\link.txt --verbose=1
+D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl,-gc-sections,--print-memory-usage -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld -v CMakeFiles/cmTC_af326.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_af326 
+Using built-in specs.
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs
+rename spec link to nano_link
+rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
+rename spec cpp_unique_options to nano_cpp_unique_options
+COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE
+COLLECT_LTO_WRAPPER=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/;d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' 'C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld' '-v' '-o' 'cmTC_af326' '-mfloat-abi=soft' '-march=armv6s-m'
+ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\cceIPGiI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -X -o cmTC_af326 d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_af326.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1568 B         8 KB     19.14%
+           FLASH:         104 B        64 KB      0.16d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol Reset_Handler; defaulting to 08000000%
+
+COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' 'C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld' '-v' '-o' 'cmTC_af326' '-mfloat-abi=soft' '-march=armv6s-m'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/include/newlib-nano]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+    add: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/include/newlib-nano] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib-nano]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/c++/9.2.1]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/c++/9.2.1/backward]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/include-fixed] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  collapse include dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include]
+  implicit include dirs: [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/newlib-nano;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/c++/9.2.1;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include/c++/9.2.1/backward;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/include-fixed;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe cmTC_af326/fast && D:/PROGRA~2/STM32C~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_af326.dir\build.make CMakeFiles/cmTC_af326.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_af326.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE    -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11    -v -o CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m']
+  ignore line: [ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -isystem =/include/newlib-nano -quiet -v -imultilib thumb/v6-m/nofp -iprefix d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -D__USES_INITFINI__ D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\share\cmake-3.16\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-m0 -mthumb -mthumb-interwork -mfloat-abi=soft -march=armv6s-m -auxbase-strip CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj -g -std=c++11 -version -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -o C:\Users\PENGZH~1\AppData\Local\Temp\cc4EqRLw.s]
+  ignore line: [GNU C++11 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp"]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib/gcc/arm-none-eabi/9.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/progra~2/stm32c~1/gnu-to~1/lib/gcc/../../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi/include/newlib-nano]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v6-m/nofp]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed]
+  ignore line: [ d:\progra~2\stm32c~1\gnu-to~1\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++11 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 170ff1c01984ee844c36675da8099675]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m']
+  ignore line: [ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mthumb-interwork -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\PENGZH~1\AppData\Local\Temp\cc4EqRLw.s]
+  ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
+  ignore line: [COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-v' '-o' 'CMakeFiles\cmTC_af326.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-march=armv6s-m']
+  ignore line: [Linking CXX executable cmTC_af326]
+  ignore line: ["D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_af326.dir\link.txt --verbose=1]
+  ignore line: [D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE  -mcpu=cortex-m0  -mthumb -mthumb-interwork -ffunction-sections -fdata-sections     -g -fno-common -fmessage-length=0 -specs=nosys.specs -specs=nano.specs -std=c++11   -Wl -gc-sections --print-memory-usage -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld -v CMakeFiles/cmTC_af326.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_af326 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [Reading specs from d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [rename spec link to nano_link]
+  ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
+  ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
+  ignore line: [COLLECT_GCC=D:\PROGRA~2\STM32C~1\GNU-TO~1\bin\AR10B2~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
+  ignore line: [COMPILER_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0' '-mthumb' '-mthumb-interwork' '-ffunction-sections' '-fdata-sections' '-g' '-fno-common' '-fmessage-length=0' '-specs=nosys.specs' '-specs=nano.specs' '-std=c++11' '-T' 'C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld' '-v' '-o' 'cmTC_af326' '-mfloat-abi=soft' '-march=armv6s-m']
+  link line: [ d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe -plugin d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll -plugin-opt=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\cceIPGiI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lg_nano -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_nano -plugin-opt=-pass-through=-lnosys --sysroot=d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi -X -o cmTC_af326 d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1 -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib -Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib -gc-sections --print-memory-usage CMakeFiles/cmTC_af326.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++_nano -lm --start-group -lgcc -lg_nano -lc_nano --end-group --start-group -lgcc -lc_nano -lnosys --end-group --start-group -lgcc -lc_nano -lnosys --end-group d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o -T C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld]
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\cceIPGiI.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lg_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc_nano] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=d:\progra~2\stm32c~1\gnu-to~1\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_af326] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/crt0.o] ==> ignore
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib]
+    arg [-Ld:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib] ==> dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib]
+    arg [-gc-sections] ==> ignore
+    arg [--print-memory-usage] ==> ignore
+    arg [CMakeFiles/cmTC_af326.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++_nano] ==> lib [stdc++_nano]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lg_nano] ==> lib [g_nano]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc_nano] ==> lib [c_nano]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o] ==> ignore
+    arg [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtn.o] ==> ignore
+    arg [-T] ==> ignore
+    arg [C:/Users/Pengzhihui/Desktop/L-ink_Card/STM32L051K8Tx_FLASH.ld] ==> ignore
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib/thumb/v6-m/nofp]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib]
+  collapse library dir [d:/progra~2/stm32c~1/gnu-to~1/bin/../arm-none-eabi/lib] ==> [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib]
+  implicit libs: [stdc++_nano;m;gcc;g_nano;c_nano;gcc;c_nano;nosys;gcc;c_nano;nosys]
+  implicit dirs: [D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib/thumb/v6-m/nofp;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc/arm-none-eabi/9.2.1;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/lib/gcc;D:/Program Data/STM32Cube/GNU-Tools-ARM-Embedded/arm-none-eabi/lib]
+  implicit fwks: []
+
+

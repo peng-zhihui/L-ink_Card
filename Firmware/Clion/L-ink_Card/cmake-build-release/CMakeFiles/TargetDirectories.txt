@@ -1,0 +1,3 @@
+C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/L-ink_Card.elf.dir
+C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/Pengzhihui/Desktop/L-ink_Card/cmake-build-release/CMakeFiles/rebuild_cache.dir
