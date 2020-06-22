@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/BSP/Display_EPD_W21.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Drivers/BSP/E-Paper-Display/epd_w21.c" charset="UTF-8" />
   </component>
 </project>

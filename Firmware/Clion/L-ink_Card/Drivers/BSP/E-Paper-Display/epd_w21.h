@@ -1,20 +1,18 @@
 #ifndef _DISPLAY_EPD_W21_H_
 #define _DISPLAY_EPD_W21_H_
 
-extern void driver_delay_xms(unsigned long xms);
+extern void DriverDelay(unsigned long xms);
 
-extern void EPD_Dis_Part(unsigned char xStart, unsigned char xEnd, unsigned long yStart, unsigned long yEnd,
-                         unsigned char *DisBuffer, unsigned char Label);
+extern void EpdDisPart(unsigned char xStart, unsigned char xEnd, unsigned long yStart, unsigned long yEnd,
+                       unsigned char *DisBuffer, unsigned char Label);
 
-extern void EPD_Dis_Full(unsigned char *DisBuffer, unsigned char Label);
+extern void EpdDisFull(unsigned char *DisBuffer, unsigned char Label);
 
-extern void EPD_init_Full(void);
+extern void EpdInitFull(void);
 
-extern void EPD_init_Part(void);
+extern void EpdInitPart(void);
 
-extern void SPI_Write(unsigned char value);
-
-extern void driver_delay_xms(unsigned long xms);
+extern void SpiWrite(unsigned char value);
 
 #define EPD_W21_MOSI_0    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_RESET)
 #define EPD_W21_MOSI_1    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5,GPIO_PIN_SET)

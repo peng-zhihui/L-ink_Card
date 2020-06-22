@@ -1,11 +1,9 @@
 #include "main.h"
 #include "app_nfc.h"
 #include "nfc04a1_nfctag.h"
-#include "Display_EPD_W21.h"
+#include "../E-Paper-Display/epd_w21.h"
 #include <stdio.h>
 
-uint8_t awritedata[16];
-uint8_t areaddata[400];
 uint8_t cnt = 0;
 uint16_t mblength;
 ST25DV_MB_CTRL_DYN_STATUS mbctrldynstatus;
@@ -31,15 +29,8 @@ void MX_NFC_Process(void)
 
 void MX_NFC4_MAILBOX_Init(void)
 {
-    printf("----------------------------------------");
-    printf("\n\r*****Welcome to x-cube-nfc4 example*****");
-    printf("\n\r----------------------------------------");
-
     /* Init ST25DV driver */
     while (NFC04A1_NFCTAG_Init(NFC04A1_NFCTAG_INSTANCE) != NFCTAG_OK);
-
-
-
 
     /* You need to present password to change static configuration */
     NFC04A1_NFCTAG_ReadI2CSecuritySession_Dyn(NFC04A1_NFCTAG_INSTANCE, &i2csso);
@@ -50,12 +41,10 @@ void MX_NFC4_MAILBOX_Init(void)
         passwd.LsbPasswd = 0;
         NFC04A1_NFCTAG_PresentI2CPassword(NFC04A1_NFCTAG_INSTANCE, passwd);
     }
+
     /* Energy harvesting activated after Power On Reset */
     NFC04A1_NFCTAG_WriteEHMode(NFC04A1_NFCTAG_INSTANCE, ST25DV_EH_ACTIVE_AFTER_BOOT);
     NFC04A1_NFCTAG_SetEHENMode_Dyn(NFC04A1_NFCTAG_INSTANCE);
-
-
-    printf("\n\r\n\r This program will show you basic example on how to use the mailbox on I2C side");
 
     /* If not activated, activate Mailbox, as long as MB is ON EEPROM is not available */
     NFC04A1_NFCTAG_ReadMBMode(NFC04A1_NFCTAG_INSTANCE, &MB_mode);
@@ -80,9 +69,7 @@ void MX_NFC4_MAILBOX_Init(void)
 
     /* Enable Mailbox in dynamique register */
     NFC04A1_NFCTAG_SetMBEN_Dyn(NFC04A1_NFCTAG_INSTANCE);
-
     printf("\n\r\n\rMailbox is activated");
-
 
     /* Set EXTI settings for GPO Interrupt */
     NFC04A1_GPO_Init();
@@ -101,9 +88,8 @@ void MX_NFC4_MAILBOX_Init(void)
 * @retval None
 */
 
-extern unsigned char rf_buffer[];
-int pos = 0;
-unsigned char qwe[20];
+extern unsigned char nfcBuffer[];
+int bufferIndex = 0;
 
 void MX_NFC4_MAILBOX_Process(void)
 {
@@ -118,9 +104,7 @@ void MX_NFC4_MAILBOX_Process(void)
             NFC04A1_NFCTAG_ReadMBLength_Dyn(NFC04A1_NFCTAG_INSTANCE, (uint8_t *) &mblength);
             mblength += 1;
 
-            //printf("\n\r\n\rLength of data write in MBCTRL register : %d", mblength);
-
-#if 0
+#if DEBUG
             /* Read mailbox status */
             NFC04A1_NFCTAG_ReadMBCtrl_Dyn(NFC04A1_NFCTAG_INSTANCE, &mbctrldynstatus);
             printf("\n\r\n\rCtrl MB status register value:");
@@ -131,27 +115,25 @@ void MX_NFC4_MAILBOX_Process(void)
             printf("\n\rMailbox Enable            = %d", mbctrldynstatus.MbEnable);
 #endif
 
-            if (mblength == 3) // frame start
+            if (mblength == 3) // frame header
             {
-                pos = 0;
+                bufferIndex = 0;
             } else if (mblength == 200) // picture data
             {
                 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_SET);
 
                 /* Read all data in Mailbox */
-                NFC04A1_NFCTAG_ReadMailboxData(NFC04A1_NFCTAG_INSTANCE, rf_buffer + pos, 0, 200);
-
-                pos += 200;
+                NFC04A1_NFCTAG_ReadMailboxData(NFC04A1_NFCTAG_INSTANCE, nfcBuffer + bufferIndex, 0, 200);
+                bufferIndex += 200;
 
                 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, GPIO_PIN_RESET);
             }
 
-            if (pos == 5000)
+            if (bufferIndex == 5000)
             {
-                pos = 0;
+                bufferIndex = 0;
 
-                EPD_Dis_Full((unsigned char *) rf_buffer, 1);
-
+                EpdDisFull((unsigned char *) nfcBuffer, 1);
                 HAL_Delay(3000);
             }
 
