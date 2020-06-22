@@ -14,7 +14,7 @@ B站指路：https://www.bilibili.com/video/BV1Cf4y1y7KT/
 ## 项目文件说明
 
 * **Hardware**：source里面是电路原理图和PCB文件，使用Altium Designer打开；release里面是gerber文件可以直接发给厂家打样，也包含了元器件BOM表。
-* **Firmware**：STM32L051的固件，我提供了Clion和Keil两个版本的工程文件，源码内容是一致的，只是个人对Clion爱得深沉。
+* **Firmware**：STM32L051的固件，我提供了Clion和Keil两个版本的工程文件，源码内容是一致的，分两个版本只是因为个人对Clion爱得深沉。
 * **3D Model**：屏幕架和外壳的3D文件，step格式一般3D建模软件都能打开编辑，STL格式用于直接3D打印。
 * **Android**：配套的APP安装包。
 
