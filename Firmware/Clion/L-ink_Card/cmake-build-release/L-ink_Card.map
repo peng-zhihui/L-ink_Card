@@ -129,20 +129,20 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
  .data          0x00000000        0x0 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
  .bss           0x00000000        0x0 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
- .text.SPI_Delay
+ .text.SpiDelay
                 0x00000000        0x4 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
- .text.driver_delay_xms
+ .text.DriverDelay
                 0x00000000        0x8 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
- .text.SPI_Write
+ .text.SpiWrite
                 0x00000000       0x40 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
- .data.BOOSTERFB
+ .data.boostERFB
                 0x00000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
- .data.BorderWavefrom
+ .data.borderWavefrom
                 0x00000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
  .data.GDVol    0x00000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
- .data.MAsequency
+ .data.MASequency
                 0x00000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
- .data.Rambypass
+ .data.ramBypass
                 0x00000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
  .data.SDVol    0x00000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
  .data.VCOMVol  0x00000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
@@ -1736,10 +1736,10 @@ LOAD d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m
  *(.text*)
  .text.EPD_init_Full
                 0x08000460      0x84c CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
-                0x08000460                EPD_init_Full
+                0x08000460                EpdInitFull
  .text.EPD_Dis_Full
                 0x08000cac      0x4ac CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
-                0x08000cac                EPD_Dis_Full
+                0x08000cac                EpdDisFull
  .text.MX_NFC_Process
                 0x08001158       0xb4 CMakeFiles/L-ink_Card.elf.dir/BSP/app_nfc.c.obj
                 0x08001158                MX_NFC_Process
@@ -2333,33 +2333,33 @@ LOAD d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m
                 0x20000000                _sdata = .
  *(.data)
  *(.data*)
- .data.DummyLine
+ .data.dummyLine
                 0x20000000        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
-                0x20000000                DummyLine
+                0x20000000                dummyLine
  *fill*         0x20000002        0x2 
  .data.GDOControl
                 0x20000004        0x4 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
                 0x20000004                GDOControl
- .data.Gatetime
+ .data.gateTime
                 0x20000008        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
-                0x20000008                Gatetime
+                0x20000008                gateTime
  *fill*         0x2000000a        0x2 
- .data.RamDataEntryMode
+ .data.ramDataEntryMode
                 0x2000000c        0x2 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
-                0x2000000c                RamDataEntryMode
+                0x2000000c                ramDataEntryMode
  *fill*         0x2000000e        0x2 
- .data.softstart
+ .data.softStart
                 0x20000010        0x4 CMakeFiles/L-ink_Card.elf.dir/BSP/Display_EPD_W21.c.obj
-                0x20000010                softstart
+                0x20000010                softStart
  .data.St25Dv_Drv
                 0x20000014       0x1c CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/Components/ST25DV/st25dv.c.obj
                 0x20000014                St25Dv_Drv
  .data.GPO_EXTI
                 0x20000030        0x8 CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/NFC04A1/nfc04a1.c.obj
                 0x20000030                GPO_EXTI
- .data.rf_buffer
+ .data.nfcBuffer
                 0x20000038     0x1388 CMakeFiles/L-ink_Card.elf.dir/Src/main.c.obj
-                0x20000038                rf_buffer
+                0x20000038                nfcBuffer
  .data.SystemCoreClock
                 0x200013c0        0x4 CMakeFiles/L-ink_Card.elf.dir/Src/system_stm32l0xx.c.obj
                 0x200013c0                SystemCoreClock
@@ -2396,8 +2396,8 @@ LOAD d:/progra~2/stm32c~1/gnu-to~1/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m
                 0x2000144e                mblength
  .bss.passwd    0x20001450        0x8 CMakeFiles/L-ink_Card.elf.dir/BSP/app_nfc.c.obj
                 0x20001450                passwd
- .bss.pos       0x20001458        0x4 CMakeFiles/L-ink_Card.elf.dir/BSP/app_nfc.c.obj
-                0x20001458                pos
+ .bss.bufferIndex       0x20001458        0x4 CMakeFiles/L-ink_Card.elf.dir/BSP/app_nfc.c.obj
+                0x20001458                bufferIndex
  .bss.NfcTagObj
                 0x2000145c       0x28 CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/NFC04A1/nfc04a1_nfctag.c.obj
  .bss.Nfctag_Drv

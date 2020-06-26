@@ -1,0 +1,99 @@
+# Private settings
+private_settings.py
+projectfiles
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+tmp/
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Python
+*.py[cod]
+
+# Eclipse Project Files
+.cproject
+.project
+.pydevproject
+
+# uVision generated files
+*.uvopt
+*.uvgui.*
+
+*.plg
+*.map
+*.lst
+*.lnp
+*.htm
+*.dep
+*.d
+*.crf
+*.bak
+
+*.axf
+*.S19
+*.bin
+*.dep
+*.FLM
+
+# JLink files
+JLink*.*
+
+# Output directories
+Output
+Lst
+Obj
+build
+targetfw
+
+# cscope
+cscope.*
+
+# PyCharm project files
+.idea
+
+# ctags
+tags
+
+# Doxygen tags and html output
+*.tag
+html
+debug.txt
+
+# virtualenv
+env/
+env*/
+venv/
+venv*/
+
+# release
+uvision_release/
+
+# git info
+source/daplink/version_git.h
+
+#Misc
+.DS_Store
+
+# automated test results
+test_results
+
+# mbedcli build related files
+.mbed
+.mbedignore
+custom_profile.json
+custom_targets.json
+log.txt
+mbed-os/
+
+#vscode editor
+.vscode

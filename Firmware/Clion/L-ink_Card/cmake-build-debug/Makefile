@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Pengzhihui\Desktop\L-ink_Card
+CMAKE_SOURCE_DIR = C:\Users\Pengzhihui\Desktop\L-ink_Card\Firmware\Clion\L-ink_Card
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Pengzhihui\Desktop\L-ink_Card\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Pengzhihui\Desktop\L-ink_Card\Firmware\Clion\L-ink_Card\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Pengzhihui\Desktop\L-ink_Card\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pengzhihui\Desktop\L-ink_Card\cmake-build-debug\CMakeFiles C:\Users\Pengzhihui\Desktop\L-ink_Card\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pengzhihui\Desktop\L-ink_Card\Firmware\Clion\L-ink_Card\cmake-build-debug\CMakeFiles C:\Users\Pengzhihui\Desktop\L-ink_Card\Firmware\Clion\L-ink_Card\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pengzhihui\Desktop\L-ink_Card\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pengzhihui\Desktop\L-ink_Card\Firmware\Clion\L-ink_Card\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,33 @@ Drivers/BSP/Components/ST25DV/st25dv_reg.c.s:
 	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/Components/ST25DV/st25dv_reg.c.s
 .PHONY : Drivers/BSP/Components/ST25DV/st25dv_reg.c.s
 
+Drivers/BSP/E-Paper-Display/epd_w21.obj: Drivers/BSP/E-Paper-Display/epd_w21.c.obj
+
+.PHONY : Drivers/BSP/E-Paper-Display/epd_w21.obj
+
+# target to build an object file
+Drivers/BSP/E-Paper-Display/epd_w21.c.obj:
+	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/E-Paper-Display/epd_w21.c.obj
+.PHONY : Drivers/BSP/E-Paper-Display/epd_w21.c.obj
+
+Drivers/BSP/E-Paper-Display/epd_w21.i: Drivers/BSP/E-Paper-Display/epd_w21.c.i
+
+.PHONY : Drivers/BSP/E-Paper-Display/epd_w21.i
+
+# target to preprocess a source file
+Drivers/BSP/E-Paper-Display/epd_w21.c.i:
+	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/E-Paper-Display/epd_w21.c.i
+.PHONY : Drivers/BSP/E-Paper-Display/epd_w21.c.i
+
+Drivers/BSP/E-Paper-Display/epd_w21.s: Drivers/BSP/E-Paper-Display/epd_w21.c.s
+
+.PHONY : Drivers/BSP/E-Paper-Display/epd_w21.s
+
+# target to generate assembly for a file
+Drivers/BSP/E-Paper-Display/epd_w21.c.s:
+	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/E-Paper-Display/epd_w21.c.s
+.PHONY : Drivers/BSP/E-Paper-Display/epd_w21.c.s
+
 Drivers/BSP/NFC04A1/nfc04a1.obj: Drivers/BSP/NFC04A1/nfc04a1.c.obj
 
 .PHONY : Drivers/BSP/NFC04A1/nfc04a1.obj
@@ -229,6 +256,33 @@ Drivers/BSP/NFC04A1/nfc04a1_nfctag.s: Drivers/BSP/NFC04A1/nfc04a1_nfctag.c.s
 Drivers/BSP/NFC04A1/nfc04a1_nfctag.c.s:
 	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/NFC04A1/nfc04a1_nfctag.c.s
 .PHONY : Drivers/BSP/NFC04A1/nfc04a1_nfctag.c.s
+
+Drivers/BSP/ST25DV/app_nfc.obj: Drivers/BSP/ST25DV/app_nfc.c.obj
+
+.PHONY : Drivers/BSP/ST25DV/app_nfc.obj
+
+# target to build an object file
+Drivers/BSP/ST25DV/app_nfc.c.obj:
+	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/ST25DV/app_nfc.c.obj
+.PHONY : Drivers/BSP/ST25DV/app_nfc.c.obj
+
+Drivers/BSP/ST25DV/app_nfc.i: Drivers/BSP/ST25DV/app_nfc.c.i
+
+.PHONY : Drivers/BSP/ST25DV/app_nfc.i
+
+# target to preprocess a source file
+Drivers/BSP/ST25DV/app_nfc.c.i:
+	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/ST25DV/app_nfc.c.i
+.PHONY : Drivers/BSP/ST25DV/app_nfc.c.i
+
+Drivers/BSP/ST25DV/app_nfc.s: Drivers/BSP/ST25DV/app_nfc.c.s
+
+.PHONY : Drivers/BSP/ST25DV/app_nfc.s
+
+# target to generate assembly for a file
+Drivers/BSP/ST25DV/app_nfc.c.s:
+	$(MAKE) -f CMakeFiles\L-ink_Card.elf.dir\build.make CMakeFiles/L-ink_Card.elf.dir/Drivers/BSP/ST25DV/app_nfc.c.s
+.PHONY : Drivers/BSP/ST25DV/app_nfc.c.s
 
 Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.obj: Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.obj
 
@@ -956,12 +1010,18 @@ help:
 	@echo ... Drivers/BSP/Components/ST25DV/st25dv_reg.obj
 	@echo ... Drivers/BSP/Components/ST25DV/st25dv_reg.i
 	@echo ... Drivers/BSP/Components/ST25DV/st25dv_reg.s
+	@echo ... Drivers/BSP/E-Paper-Display/epd_w21.obj
+	@echo ... Drivers/BSP/E-Paper-Display/epd_w21.i
+	@echo ... Drivers/BSP/E-Paper-Display/epd_w21.s
 	@echo ... Drivers/BSP/NFC04A1/nfc04a1.obj
 	@echo ... Drivers/BSP/NFC04A1/nfc04a1.i
 	@echo ... Drivers/BSP/NFC04A1/nfc04a1.s
 	@echo ... Drivers/BSP/NFC04A1/nfc04a1_nfctag.obj
 	@echo ... Drivers/BSP/NFC04A1/nfc04a1_nfctag.i
 	@echo ... Drivers/BSP/NFC04A1/nfc04a1_nfctag.s
+	@echo ... Drivers/BSP/ST25DV/app_nfc.obj
+	@echo ... Drivers/BSP/ST25DV/app_nfc.i
+	@echo ... Drivers/BSP/ST25DV/app_nfc.s
 	@echo ... Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.obj
 	@echo ... Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.i
 	@echo ... Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.s

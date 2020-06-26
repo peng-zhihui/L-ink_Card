@@ -39,7 +39,7 @@ add_definitions(-DUSE_HAL_DRIVER -DSTM32L051xx)
 
 file(GLOB_RECURSE SOURCES "startup/*.*" "Packs/*.*" "Drivers/*.*" "Src/*.*" "BSP/*.*")
 
-include_directories(BSP Inc Drivers/STM32L0xx_HAL_Driver/Inc Drivers/STM32L0xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32L0xx/Include Drivers/CMSIS/Include Drivers/BSP/Components/ST25DV Drivers/BSP/NFC04A1 Drivers/BSP/Drivers/BSP/NFC04A1)
+include_directories(Drivers/BSP/ST25DV Drivers/BSP/E-Paper-Display Inc Drivers/STM32L0xx_HAL_Driver/Inc Drivers/STM32L0xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32L0xx/Include Drivers/CMSIS/Include Drivers/BSP/Components/ST25DV Drivers/BSP/NFC04A1 Drivers/BSP/Drivers/BSP/NFC04A1)
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 

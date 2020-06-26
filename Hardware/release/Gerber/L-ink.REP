@@ -1,0 +1,375 @@
+*************************************************************
+FileName = L-ink.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 14
+      File : L-ink.GM14
+
+    Adding Layer      : Mechanical 14
+
+
+Used DCodes :
+    D79
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : L-ink.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : L-ink.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : L-ink.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : L-ink.GPT
+
+    Adding Layer      : Top1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D71
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : L-ink.GPB
+
+    Adding Layer      : Bottom2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D27
+    D71
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : L-ink.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D10
+    D18
+    D78
+    D79
+    D80
+    D81
+*************************************************************
+
+*************************************************************
+Generating : Bottom2
+      File : L-ink.GBL
+
+    Adding Layer      : Bottom2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D15
+    D24
+    D27
+    D68
+    D69
+    D71
+    D72
+    D73
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Top1
+      File : L-ink.GTL
+
+    Adding Layer      : Top1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D15
+    D16
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : L-ink.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D15
+    D18
+    D78
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 4
+      File : L-ink.GM4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : L-ink.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : L-ink.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D14
+    D15
+    D18
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : L-ink.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D81
+    D82
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : L-ink.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D27
+    D68
+    D74
+    D75
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : L-ink.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D48
+    D51
+    D66
+    D67
+    D76
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : L-ink.GD1
+
+    Adding Drill Pair : Top1-Bottom2
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D15
+    D16
+    D69
+    D79
+    D83
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : L-ink.GG1
+
+    Adding Drill Pair : Top1-Bottom2
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D79
+*************************************************************
+
