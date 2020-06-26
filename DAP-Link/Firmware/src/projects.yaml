@@ -1,0 +1,644 @@
+settings:
+    export_dir:
+        - projectfiles/{tool}/{project_name}
+    tools:
+        uvision:
+            template:
+                - records/tools/uvision.uvproj.tmpl
+
+module:
+    tools: &module_tools
+        - records/tools/make_gcc_arm.yaml
+        - records/tools/make_armcc.yaml
+        - records/tools/version.yaml
+    bl: &module_bl
+        - *module_tools
+        - records/usb/usb-core.yaml
+        - records/usb/usb-msc.yaml
+        - records/daplink/bootloader.yaml
+        - records/daplink/drag-n-drop.yaml
+        - records/daplink/settings.yaml
+        - records/daplink/settings_rom_stub.yaml
+        - records/daplink/target_board.yaml
+        - records/rtos/rtos-none.yaml
+    if: &module_if
+        - *module_tools
+        - records/usb/usb-core.yaml
+        - records/usb/usb-hid.yaml
+        - records/usb/usb-msc.yaml
+        - records/usb/usb-cdc.yaml
+        - records/usb/usb-webusb.yaml
+        - records/usb/usb-winusb.yaml
+        - records/daplink/cmsis-dap.yaml
+        - records/daplink/drag-n-drop.yaml
+        - records/daplink/usb2uart.yaml
+        - records/daplink/settings.yaml
+        - records/daplink/settings_rom.yaml
+        - records/daplink/interface.yaml
+        - records/daplink/target_family.yaml
+        - records/daplink/target_board.yaml
+    # HICs
+    hic_k20dx: &module_hic_k20dx
+        - records/rtos/rtos-cm3.yaml
+        - records/hic_hal/k20dx.yaml
+        - records/usb/usb-bulk.yaml
+    hic_k26f: &module_hic_k26f
+        - records/rtos/rtos-cm4.yaml
+        - records/hic_hal/k26f.yaml
+        - records/usb/usb-bulk.yaml
+    hic_kl26z: &module_hic_kl26z
+        - records/rtos/rtos-cm0.yaml
+        - records/hic_hal/kl26z.yaml
+        - records/usb/usb-bulk.yaml
+    hic_lpc11u35: &module_hic_lpc11u35
+        - records/rtos/rtos-cm0.yaml
+        - records/hic_hal/lpc11u35.yaml
+    hic_lpc4322: &module_hic_lpc4322
+        - records/rtos/rtos-cm3.yaml
+        - records/hic_hal/lpc4322.yaml
+        - records/usb/usb-bulk.yaml
+    hic_sam3u2c: &module_hic_sam3u2c
+        - records/rtos/rtos-cm3.yaml
+        - records/hic_hal/sam3u2c.yaml
+    hic_stm32f103xb: &module_hic_stm32f103xb
+        - records/rtos/rtos-cm3.yaml
+        - records/hic_hal/stm32f103xb.yaml
+    hic_max32620: &module_hic_max32620
+        - records/rtos/rtos-cm4.yaml
+        - records/hic_hal/max32620.yaml
+    hic_max32625: &module_hic_max32625
+        - records/rtos/rtos-cm4.yaml
+        - records/hic_hal/max32625.yaml
+    hic_m48ssidae: &module_hic_m48ssidae
+        - records/rtos/rtos-cm4.yaml
+        - records/hic_hal/m48ssidae.yaml
+
+projects:
+    kl26z_bl:
+        - *module_bl
+        - records/hic_hal/kl26z.yaml
+        - records/board/kl26z_bl.yaml
+    kl26z_if:
+        - *module_if
+        - *module_hic_kl26z
+        - records/family/all_family.yaml
+    k20dx_bl:
+        - *module_bl
+        - records/hic_hal/k20dx.yaml
+        - records/board/k20dx_bl.yaml
+    k20dx_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/family/all_family.yaml
+    k26f_bl:
+        - *module_bl
+        - records/hic_hal/k26f.yaml
+        - records/board/k26f_bl.yaml
+    k26f_if:
+        - *module_if
+        - *module_hic_k26f
+        - records/family/all_family.yaml
+    lpc11u35_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/family/all_family.yaml
+        - records/usb/usb-bulk.yaml
+    lpc4322_bl:
+        - *module_bl
+        - records/hic_hal/lpc4322.yaml
+        - records/board/lpc4322_bl.yaml
+    lpc4322_if:
+        - *module_if
+        - *module_hic_lpc4322
+        - records/family/all_family.yaml
+    max32620_bl:
+        - *module_bl
+        - records/hic_hal/max32620.yaml
+        - records/board/max32620_bl.yaml
+    max32620_if:
+        - *module_if
+        - *module_hic_max32620
+        - records/family/all_family.yaml
+        - records/usb/usb-bulk.yaml
+    max32625_bl:
+        - *module_bl
+        - records/hic_hal/max32625.yaml
+        - records/board/max32625_bl.yaml
+    max32625_if:
+        - *module_if
+        - *module_hic_max32625
+        - records/family/all_family.yaml
+        - records/usb/usb-bulk.yaml
+    sam3u2c_bl:
+        - *module_bl
+        - records/hic_hal/sam3u2c.yaml
+        - records/board/sam3u2c_bl.yaml
+    sam3u2c_if:
+        - *module_if
+        - *module_hic_sam3u2c
+        - records/family/all_family.yaml
+    stm32f103xb_bl:
+        - *module_bl
+        - records/hic_hal/stm32f103xb.yaml
+        - records/board/stm32f103xb_bl.yaml
+    stm32f103xb_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/family/all_family.yaml
+        - records/usb/usb-bulk.yaml
+    sam3u2c_mkit_dk_dongle_nrf5x_if:
+        - *module_if
+        - *module_hic_sam3u2c
+        - records/board/mkit_dk_dongle_nrf5x.yaml
+    kl26z_microbit_if:
+        - *module_if
+        - *module_hic_kl26z
+        - records/board/microbit.yaml
+    kl26z_nina_b1_if:
+        - *module_if
+        - *module_hic_kl26z
+        - records/board/nina_b1.yaml
+    k20dx_frdmk20dx_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmk20dx.yaml
+    k20dx_frdmk22f_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmk22f.yaml
+    k20dx_frdmkw24d_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkw24d.yaml
+    k20dx_frdmkw41z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkw41z.yaml
+    k20dx_frdmk64f_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmk64f.yaml
+    k20dx_hexiwear_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/hexiwear.yaml
+    k20dx_rapid_iot_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/rapid_iot.yaml
+    k20dx_frdmk66f_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmk66f.yaml
+    k20dx_frdmk82f_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmk82f.yaml
+    k20dx_frdmk28f_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmk28f.yaml
+    k20dx_frdmke15z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmke15z.yaml
+    k20dx_frdmkl02z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl02z.yaml
+    k20dx_frdmkl05z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl05z.yaml
+    k20dx_frdmkl25z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl25z.yaml
+    k20dx_frdmkl26z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl26z.yaml
+    k20dx_frdmkl27z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl27z.yaml
+    k20dx_frdmkl43z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl43z.yaml
+    k20dx_frdmkl46z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl46z.yaml
+    k20dx_frdmkl28z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl28z.yaml
+    k20dx_frdmkl82z_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/frdmkl82z.yaml
+    k20dx_twrkl28z72m_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/twrkl28z72m.yaml
+    k20dx_twrke18f_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/twrke18f.yaml
+    k20dx_hvpke18f_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/hvpke18f.yaml
+    k20dx_rbl_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/rbl.yaml
+    k20dx_rblnano_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/rblnano.yaml
+    k20dx_xdot_l151_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/xDot-L151.yaml
+    k20dx_mimxrt1020_evk_qspi_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/mimxrt1020_evk_qspi.yaml
+    k20dx_mimxrt1050_evk_hyper_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/mimxrt1050_evk_hyper.yaml
+    k20dx_mimxrt1050_evk_qspi_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/mimxrt1050_evk_qspi.yaml
+    k20dx_ep_agora_if:
+        - *module_if
+        - *module_hic_k20dx
+        - records/board/ep_agora.yaml
+    k26f_frdmk32w042_if:
+        - *module_if
+        - *module_hic_k26f
+        - records/board/frdmk32w042.yaml
+    lpc11u35_ff1705_l151_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/FF1705_L151.yaml
+    lpc11u35_lpc812xpresso_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/lpc812xpresso.yaml
+    lpc11u35_lpc824xpresso_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/lpc824xpresso.yaml
+    lpc4322_lpc54114xpresso_if:
+        - *module_if
+        - *module_hic_lpc4322
+        - records/board/lpc54114xpresso.yaml
+    lpc4322_lpc54608xpresso_if:
+        - *module_if
+        - *module_hic_lpc4322
+        - records/board/lpc54608xpresso.yaml
+    lpc4322_lpc55s69xpresso_if:
+        - *module_if
+        - *module_hic_lpc4322
+        - records/board/lpc55S69xpresso.yaml
+    lpc11u35_ff_lpc546xx_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/ff_lpc546xx.yaml
+    lpc11u35_lpc4088dm_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/lpc4088dm.yaml
+    lpc11u35_lpc4088qsb_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/lpc4088qsb.yaml
+    lpc11u35_archble_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/archble.yaml
+    lpc11u35_tiny_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/tiny.yaml
+    lpc11u35_archpro_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/archpro.yaml
+    lpc11u35_archmax_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/archmax.yaml
+    lpc11u35_wio3g_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/wio3g.yaml
+    lpc11u35_wiobg96_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/wiobg96.yaml
+    lpc11u35_hrm1017_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/hrm1017.yaml
+    lpc11u35_sscity_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/sscity.yaml
+    lpc11u35_ssci824_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/ssci824.yaml
+    lpc11u35_ssci1114_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/ssci1114.yaml
+    lpc11u35_ssci_chibi_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/ssci_chibi.yaml
+    lpc11u35_ro359b_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/ro359b.yaml
+    lpc11u35_c027_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/c027.yaml
+    lpc11u35_arm_watch_stm32f411_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/arm_watch_stm32f411.yaml
+    lpc11u35_arm_watch_efm32_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/arm_watch_efm32.yaml
+    lpc11u35_arm_watch_nrf51_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/arm_watch_nrf51.yaml
+    lpc11u35_archlink_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/archlink.yaml
+    lpc11u35_6lowpan_borderrouterusb_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/6LoWPAN_BorderRouterUSB.yaml
+    lpc11u35_6lowpan_borderrouterhat_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/6LoWPAN_BorderRouterHAT.yaml
+    lpc11u35_6lowpan_borderrouterethernet_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/6LoWPAN_BorderRouterETHERNET.yaml
+    lpc11u35_cocorico_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/cocorico.yaml
+    lpc11u35_gr_peach_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/gr-peach.yaml
+    lpc11u35_blueninja_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/blueninja.yaml
+    lpc11u35_nz32_sc151_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/nz32_sc151.yaml
+    lpc11u35_wizwiki_w7500_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/wizwiki_w7500.yaml
+    lpc11u35_wizwiki_w7500_eco_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/wizwiki_w7500_eco.yaml
+    lpc11u35_wizwiki_w7500p_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/wizwiki_w7500p.yaml
+    lpc11u35_mbed_cloud_connect_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mbed_cloud_connect.yaml
+    lpc11u35_rtl8195am_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/rtl8195am.yaml
+    sam3u2c_ncs36510rf_if:
+        - *module_if
+        - *module_hic_sam3u2c
+        - records/board/ncs36510rf.yaml
+    sam3u2c_ublox_evk_nina_b1_if:
+        - *module_if
+        - *module_hic_sam3u2c
+        - records/board/ublox_evk_nina_b1.yaml
+    lpc11u35_vbluno51_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/vbluno51.yaml
+    lpc11u35_mtconnect04s_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtconnect04s.yaml
+    lpc11u35_96b_nitrogen_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/96b_nitrogen.yaml
+    lpc11u35_mtb_mxchip_emw3166_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_mxchip_emw3166.yaml
+    lpc11u35_mtb_nina_b112_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_nina_b112.yaml
+    lpc11u35_mtb_murata_abz_078_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_murata_abz_078.yaml
+    lpc11u35_mtb_rak811_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_rak811.yaml
+    lpc11u35_mtb_wise1510_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_wise1510.yaml
+    lpc11u35_mtb_wise1530_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_wise1530.yaml
+    lpc11u35_mtb_wise1570_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_wise1570.yaml
+    lpc11u35_mtb_laird_bl652_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_laird_bl652.yaml
+    lpc11u35_mtb_usi_wm_bn_bm_22_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_usi_wm_bn_bm_22.yaml
+    lpc11u35_gr_lychee_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/gr-lychee.yaml
+    lpc11u35_dipdap_sdt32429b_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/dipdap_sdt32429b.yaml
+    lpc11u35_dipdap_sdt32439b_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/dipdap_sdt32439b.yaml
+    lpc11u35_dipdap_sdt64b_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/dipdap_sdt64b.yaml
+    lpc11u35_dipdap_sdt51822b_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/dipdap_sdt51822b.yaml
+    lpc11u35_dipdap_sdt52832b_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/dipdap_sdt52832b.yaml
+    lpc11u35_mtb_ublox_odin_w2_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_ublox_odin_w2.yaml
+    lpc11u35_mtb_mts_dragonfly_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_mts_dragonfly.yaml
+    lpc11u35_mtb_mts_xdot_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_mts_xdot.yaml
+    lpc11u35_dipdap_cc3220sf_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/dipdap_cc3220sf.yaml
+    stm32f103xb_stm32f103rb_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f103rb.yaml
+    stm32f103xb_stm32f072rb_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f072rb.yaml
+    stm32f103xb_stm32f334r8_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f334r8.yaml
+    stm32f103xb_stm32f401re_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f401re.yaml
+    stm32f103xb_stm32f411re_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f411re.yaml
+    stm32f103xb_stm32f429zi_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f429zi.yaml
+    stm32f103xb_ublox_evk_odin_w2_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/ublox_evk_odin_w2.yaml
+    stm32f103xb_stm32l476rg_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32l476rg.yaml
+    stm32f103xb_stm32f746zg_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f746zg.yaml
+    stm32f103xb_stm32f207zg_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32f207zg.yaml
+    lpc11u35_mtb_laird_bl654_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_laird_bl654.yaml
+    lpc11u35_mtb_murata_bl241_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_murata_bl241.yaml
+    lpc11u35_mtb_stm_s2lp_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_stm_s2lp.yaml
+    lpc11u35_mini_iot_lpc54018_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mini_iot_lpc54018.yaml
+    lpc11u35_mtb_stm32l475_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_stm32l475.yaml
+    lpc11u35_mtb_aconno_acn52832_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_aconno_acn52832.yaml
+    lpc11u35_mtb_stm32f439_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/mtb_stm32f439.yaml
+    lpc11u35_musca_a_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/musca_a.yaml
+    lpc11u35_musca_b_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/musca_b.yaml
+    lpc11u35_musca_b_eflash_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/musca_b_eflash.yaml
+    max32620_max32625mbed_if:
+        - *module_if
+        - *module_hic_max32620
+        - records/board/max32625mbed.yaml
+    max32625_max32620fthr_if:
+        - *module_if
+        - *module_hic_max32625
+        - records/board/max32620fthr.yaml
+    max32625_max32630fthr_if:
+        - *module_if
+        - *module_hic_max32625
+        - records/board/max32630fthr.yaml
+    lpc11u35_wio_emw3166_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/wio_emw3166.yaml
+    m48ssidae_bl:
+        - *module_bl
+        - records/hic_hal/m48ssidae.yaml
+        - records/board/m48ssidae_bl.yaml
+    m48ssidae_numaker_m252kg_if:
+        - *module_if
+        - *module_hic_m48ssidae
+        - records/board/numaker_m252kg.yaml
+    m48ssidae_numaker_iot_m263a_if:
+        - *module_if
+        - *module_hic_m48ssidae
+        - records/board/numaker_iot_m263a.yaml
+    lpc4322_hani_iot_if:
+        - *module_if
+        - *module_hic_lpc4322
+        - records/board/hani_iot.yaml

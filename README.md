@@ -16,6 +16,7 @@ B站指路：https://www.bilibili.com/video/BV1Cf4y1y7KT/
 * **Hardware**：source里面是电路原理图和PCB文件，使用Altium Designer打开；release里面是gerber文件可以直接发给厂家打样，也包含了元器件BOM表（部分IC不太常用可能要单独购买）。
 * **Firmware**：STM32L051的固件，我提供了Clion和Keil两个版本的工程文件，源码内容是一致的，分两个版本只是因为个人对Clion爱得深沉。
 * **3D Model**：屏幕架和外壳的3D文件，step格式一般3D建模软件都能打开编辑，STL格式用于直接3D打印。
+* **DAP-Link：**自己设计的下载调试器的硬件和固件源码，也包括预编译的hex固件，如果你有J-Link或者ST-Link之类的下载器就不用这个了。
 * **Android**：配套的APP安装包。
 
 ## 固件编译说明

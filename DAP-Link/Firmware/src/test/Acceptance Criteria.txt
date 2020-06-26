@@ -1,0 +1,27 @@
+Minimum Acceptance Criteria for a release of DAPLink interface firmware.
+ * All tests are pass/fail
+
+HIC Acceptance Test for DAPLink Firmware
+The test suite should be ran on each of the following operating systems
+ * Operating Systems:
+  * Windows 7, 8.x, 10
+  * Ubuntu Linux > 12.04
+  * Mac OSX > 10.9
+
+The test(s) validates the following functionallities:
+ * USB HID: CMSIS-DAP Debugging
+  * Keil validation (windows only)
+  * pyOCD basic_test.py
+
+ * USB CDC: Terminal Echo and Break
+  * echo 1024 bytes
+  * break command for reset
+
+ * USB MSD: drag-n-drop programming
+  * Chrome - latest
+  * Internet Explorer - latest
+  * Firefox - latest
+  * Safari - latest (Mac only)
+  * cp, copy, xcopy, mv commands (based on OS compatibility)
+
+

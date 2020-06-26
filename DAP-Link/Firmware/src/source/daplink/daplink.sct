@@ -1,0 +1,59 @@
+#! armcc -E
+;/**
+; * @file    daplink.sct
+; * @brief   Memory layout for DAPLink Interface Firmware
+; *
+; * DAPLink Interface Firmware
+; * Copyright (c) 2009-2016, ARM Limited, All Rights Reserved
+; * SPDX-License-Identifier: Apache-2.0
+; *
+; * Licensed under the Apache License, Version 2.0 (the "License"); you may
+; * not use this file except in compliance with the License.
+; * You may obtain a copy of the License at
+; *
+; * http://www.apache.org/licenses/LICENSE-2.0
+; *
+; * Unless required by applicable law or agreed to in writing, software
+; * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+; * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; * See the License for the specific language governing permissions and
+; * limitations under the License.
+; */
+
+#include "daplink_addr.h"
+
+LR_IROM1 DAPLINK_ROM_APP_START DAPLINK_ROM_APP_SIZE {
+
+  ER_IROM1 DAPLINK_ROM_APP_START DAPLINK_ROM_APP_SIZE {
+   *.o (RESET, +First)
+   *(InRoot$$Sections)
+   .ANY (+RO)
+  }
+  
+  RW_IRAM1 DAPLINK_RAM_APP_START DAPLINK_RAM_APP_SIZE {  ; RW data
+   .ANY (ram_func)
+   .ANY (+RW +ZI)
+   .ANY (RAM1)
+  }
+
+  #if defined(DAPLINK_RAM_APP2_START)
+      RW_IRAM2 DAPLINK_RAM_APP2_START DAPLINK_RAM_APP2_SIZE {  ; RW data
+       .ANY (+RW +ZI)
+       .ANY (RAM2)
+      }
+  #endif
+
+  RW_CONFIG DAPLINK_RAM_SHARED_START UNINIT DAPLINK_RAM_SHARED_SIZE {
+    .ANY (cfgram)
+  }
+
+  ER_IROM1_CRC (DAPLINK_ROM_APP_START + DAPLINK_ROM_APP_SIZE - 4) FIXED FILL 0xFFFFFFFF 4 {
+    ; reserve space for the CRC
+  }
+}
+
+LR_CONFIG DAPLINK_ROM_CONFIG_USER_START DAPLINK_ROM_CONFIG_USER_SIZE { ; reserve last sector for config data
+  ER_CONFIG DAPLINK_ROM_CONFIG_USER_START UNINIT DAPLINK_ROM_CONFIG_USER_SIZE {
+    .ANY (cfgrom)
+  }
+}
