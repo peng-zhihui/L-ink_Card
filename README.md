@@ -12,7 +12,7 @@
 
 
 
-![3D make](3D make.jpg)
+![](3D make.jpg)
 
 
 
