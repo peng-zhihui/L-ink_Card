@@ -8,13 +8,15 @@
 
 
 
-外壳还在做（	新建文件夹（0/1）	）之前的版本螺丝孔做小了，需要重新修改一下布局。
+外壳去打样了，改一下螺丝孔位和厚度。
 
 
 
 ![](https://github.com/simonire/L-ink_Card/blob/master/Image/3D%20make.jpg)
 
+![](https://github.com/simonire/L-ink_Card/blob/master/Image/3D%20make 2.jpg)
 
+![](https://github.com/simonire/L-ink_Card/blob/master/Image/3D%20make 3.jpg)
 
 ## ------------------------------华丽的分割线------------------------------
 **原文**：
