@@ -1,25 +1,35 @@
+---
+typora-root-url: Image
+---
+
 # [L-ink]电子墨水屏NFC智能卡片
 
-## 解决L-ink卡片只能写入两张uid芯片的问题：
+## 解决L-ink卡片只能写入两张UID芯片的问题，改为4张UID版本：
 
 
 
-采用五向开关，上下左右四个方向作为四张卡片，确认是使用nfc和手机进行墨水屏通信。
+修改了PCB布局，使用五向开关，上下左右四个方向作为四张卡片，下按确认是使用nfc芯片和手机进行通信控制ST32L0刷写墨水屏。
 
+![](https://github.com/simonire/L-ink_Card/blob/master/Image/TruePic.png)
 
+外壳实物如上图所示，为了方便，把顶层的亚克力盖板拿掉了。个人感觉比较满意，尼龙强度也挺高，放张用fusion360渲染的图片吧。
 
-外壳去打样了，改一下螺丝孔位和厚度。
+改到v28版本了，作为建模小白真的是太痛苦了……
 
-
+![](https://github.com/simonire/L-ink_Card/blob/master/Image/ZUZHUANG.png)
 
 ![](https://github.com/simonire/L-ink_Card/blob/master/Image/3D%20make.jpg)
+
+这两张是之前版本的支架KS渲染，虽然支架不在用此设计，但是其他基本上不变，也放上来一起看看吧~~（绝对不是我懒得再次渲染了）~~：
 
 ![](https://github.com/simonire/L-ink_Card/blob/master/Image/3D%20make%202.jpg)
 
 ![](https://github.com/simonire/L-ink_Card/blob/master/Image/3D%20make%203.jpg)
 
+
+
 ## ------------------------------华丽的分割线------------------------------
-**原文**：
+**稚晖UP项目  原文**：
 
 > 这是为了解决个人使用IC卡时遇到的一些痛点设计的一个迷你NFC智能卡片，基于STM32L051和ST25DV。
 >
