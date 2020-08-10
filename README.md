@@ -1,7 +1,3 @@
----
-typora-root-url: Image
----
-
 # [L-ink]电子墨水屏NFC智能卡片
 
 ## 解决L-ink卡片只能写入两张UID芯片的问题，改为4张UID版本：
