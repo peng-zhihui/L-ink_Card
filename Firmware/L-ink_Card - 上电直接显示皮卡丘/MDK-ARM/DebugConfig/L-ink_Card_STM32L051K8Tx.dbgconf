@@ -1,0 +1,43 @@
+// File: STM32L0x1_0x2_0x3_DBGMCU.ini
+// Version: 1.0.0
+// Note: refer to STM32L0x1 reference manual (RM0377)
+//       refer to STM32L0x1 datasheet
+//       refer to STM32L0x2 reference manual (RM0376)
+//       refer to STM32L0x2 datasheet
+//       refer to STM32L0x3 reference manual (RM0367)
+//       refer to STM32L0x3 datasheet
+
+// <<< Use Configuration Wizard in Context Menu >>>
+
+// <h> Debug MCU configuration register (DBGMCU_CR)
+//                                   <i> Reserved bits must be kept at reset value
+//   <o.2>  DBG_STANDBY              <i> Debug Standby Mode
+//   <o.1>  DBG_STOP                 <i> Debug Stop Mode
+//   <o.0>  DBG_SLEEP                <i> Debug Sleep Mode
+// </h>
+DbgMCU_CR = 0x00000007;
+
+// <h> Debug MCU APB1 freeze register (DBGMCU_APB1_FZ)
+//                                   <i> Reserved bits must be kept at reset value
+//   <o.31> DBG_LPTIMER_STOP         <i> LPTIM1 counter stopped when core is halted
+//   <o.30> DBG_I2C3_STOP            <i> I2C3 SMBUS timeout mode stopped when core is halted
+//   <o.22> DBG_I2C2_STOP            <i> I2C2 SMBUS timeout mode stopped when core is halted
+//   <o.21> DBG_I2C1_STOP            <i> I2C1 SMBUS timeout mode stopped when core is halted
+//   <o.12> DBG_IWDG_STOP            <i> Debug independent watchdog stopped when core is halted
+//   <o.11> DBG_WWDG_STOP            <i> Debug window watchdog stopped when core is halted
+//   <o.10> DBG_RTC_STOP             <i> Debug RTC stopped when core is halted
+//   <o.5>  DBG_TIM7_STOP            <i> TIM7 counter stopped when core is halted
+//   <o.4>  DBG_TIM6_STOP            <i> TIM6 counter stopped when core is halted
+//   <o.1>  DBG_TIM3_STOP            <i> TIM3 counter stopped when core is halted
+//   <o.0>  DBG_TIM2_STOP            <i> TIM2 counter stopped when core is halted
+// </h>
+DbgMCU_APB1_Fz = 0x00000000;
+
+// <h> Debug MCU APB2 freeze register (DBGMCU_APB2_FZ)
+//                                   <i> Reserved bits must be kept at reset value
+//   <o.5> DBG_TIM22_STOP            <i> TIM22 counter stopped when core is halted
+//   <o.2> DBG_TIM21_STOP            <i> TIM21 counter stopped when core is halted
+// </h>
+DbgMCU_APB2_Fz = 0x00000000;
+
+// <<< end of configuration section >>>

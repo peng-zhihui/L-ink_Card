@@ -1,3 +1,0 @@
-C:/Users/Pengzhihui/Desktop/L-ink_Card/Firmware/Clion/L-ink_Card/cmake-build-debug/CMakeFiles/L-ink_Card.elf.dir
-C:/Users/Pengzhihui/Desktop/L-ink_Card/Firmware/Clion/L-ink_Card/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Pengzhihui/Desktop/L-ink_Card/Firmware/Clion/L-ink_Card/cmake-build-debug/CMakeFiles/rebuild_cache.dir
