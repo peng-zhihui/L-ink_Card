@@ -68,3 +68,10 @@ Android APP目前只是实现了功能，这是基于我以前做的一个算法
 
 聊天内容可以给我发评论或者私信（B站、知乎），我看到的话基本都会回复，issue里面发的话所有watch项目的人都会收到邮件，会对大家产生困扰的！
 
+---
+
+**以下是[simonire](https://github.com/simonire)修改的版本，适配新款的屏幕驱动，修改拨轮为五维按键，有需要的可以参考：**
+
+https://github.com/simonire/L-ink_Card
+
+![](Image/TruePic.png)
